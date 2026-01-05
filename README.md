@@ -1,2 +1,1 @@
-42 Piscine Projects - 2025
-# 42_Piscine
+# 42 Piscine - 2025
