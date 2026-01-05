@@ -1,0 +1,41 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   ft_find_next_prime.c                               :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: ahtiftik <ahtiftik@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/10/08 17:00:30 by ahtiftik          #+#    #+#             */
+/*   Updated: 2025/10/09 20:12:33 by ahtiftik         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
+int	ft_is_prime(int nb)
+{
+	int	i;
+
+	i = 2;
+	if (nb < 2)
+	{
+		return (0);
+	}
+	while (i < nb)
+	{
+		if (nb % i == 0)
+		{
+			return (0);
+		}
+		i++;
+	}
+	return (1);
+}
+
+int	ft_find_next_prime(int nb)
+{
+	while (1)
+	{
+		if (ft_is_prime(nb) == 1)
+			return (nb);
+		nb++;
+	}
+}
