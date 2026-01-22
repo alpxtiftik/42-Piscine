@@ -2,35 +2,33 @@
 
 # 42 Piscine - 2025
 
-Bu depo, **42 İstanbul** (veya ilgili kampüs) Piscine eğitimi sürecinde tamamladığım C dili ve Shell projelerini, alıştırmaları ve kütüphane çalışmalarını içermektedir.
+This repository contains the C language and Shell projects, exercises, and library work completed during the **42 Istanbul** Piscine training process.
 
-Piscine, yazılım geliştirme temellerinin atıldığı, akran öğrenimi (peer-to-peer) metodolojisine dayalı 26 günlük yoğun bir kamp sürecidir. Bu depodaki kodlar, C dilinin temellerinden başlayıp bellek yönetimi ve pointer aritmetiğine kadar uzanan bir öğrenme eğrisini yansıtır.
+The Piscine is a 26-day intensive boot camp rooted in the peer-to-peer learning methodology, designed to lay the foundations of software development. The code in this repository reflects a learning curve ranging from the basics of C to memory management and pointer arithmetic.
 
----
+## 📂 Content Structure
 
-##  İçerik Yapısı
-
-Her klasör, ilgili modüldeki görevleri ve kazanımları içerir:
+Each folder contains the tasks and learning outcomes for the respective module:
 
 ```text
 42-Piscine/
-├── c00/ # C00 – C diline giriş
-├── c01/ # C01 – Pointer’lar ve hafıza
-├── c02/ # C02 – Diziler ve stringler
-├── c03/ # C03 – String fonksiyonları vs.
-├── c04/ # C04 – Gelişmiş string / karakter
-├── c05/ # C05 – Matematiksel işlemler / döngüler
-├── c06/ # C06 – Komut satırı argümanları
-├── c07/ # C07 – Dinamik hafıza
-├── c08/ # C08 – Struct’lar / fonksiyon pointer’lar
-├── shell00/ # Shell00 – Shell temelleri
+├── c00/     # C00 – Introduction to C
+├── c01/     # C01 – Pointers and memory
+├── c02/     # C02 – Arrays and strings
+├── c03/     # C03 – String functions (re-implementation)
+├── c04/     # C04 – Advanced string / character manipulation
+├── c05/     # C05 – Mathematical operations / Loops & Recursion
+├── c06/     # C06 – Command line arguments
+├── c07/     # C07 – Dynamic memory allocation
+├── c08/     # C08 – Structs / Headers
+├── shell00/ # Shell00 – Shell basics
 └── shell01/ # Shell01 – Shell scripting
 ```
 
-## Kullanım ve Derleme
+## Usage and Compilation
+These projects were developed in accordance with Norminette rules (42 School's strict coding standards). The cc compiler and standard flags are generally used to compile the code:
 
-Bu projeler **Norminette** kurallarına (42 Okulu'nun katı kod yazım standartları) uygun olarak geliştirilmiştir. Kodları derlemek için genellikle `cc` derleyicisi ve standart bayraklar kullanılır:
 
-```bash
-cc -Wall -Wextra -Werror dosya_adi.c -o program
+```cc -Wall -Wextra -Werror filename.c -o program
 ./program
+```
