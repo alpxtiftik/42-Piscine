@@ -6,7 +6,7 @@ This repository contains the C language and Shell projects, exercises, and libra
 
 The Piscine is a 26-day intensive boot camp rooted in the peer-to-peer learning methodology, designed to lay the foundations of software development. The code in this repository reflects a learning curve ranging from the basics of C to memory management and pointer arithmetic.
 
-## 📂 Content Structure
+## Content Structure
 
 Each folder contains the tasks and learning outcomes for the respective module:
 
