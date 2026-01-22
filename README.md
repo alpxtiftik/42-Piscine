@@ -29,6 +29,7 @@ Each folder contains the tasks and learning outcomes for the respective module:
 These projects were developed in accordance with Norminette rules (42 School's strict coding standards). The cc compiler and standard flags are generally used to compile the code:
 
 
-```cc -Wall -Wextra -Werror filename.c -o program
+```bash
+cc -Wall -Wextra -Werror filename.c -o program
 ./program
 ```
