@@ -6,25 +6,28 @@ Bu depo, **42 İstanbul** (veya ilgili kampüs) Piscine eğitimi sürecinde tama
 
 Piscine, yazılım geliştirme temellerinin atıldığı, akran öğrenimi (peer-to-peer) metodolojisine dayalı 26 günlük yoğun bir kamp sürecidir. Bu depodaki kodlar, C dilinin temellerinden başlayıp bellek yönetimi ve pointer aritmetiğine kadar uzanan bir öğrenme eğrisini yansıtır.
 
+---
+
 ##  İçerik Yapısı
 
 Her klasör, ilgili modüldeki görevleri ve kazanımları içerir:
 
-| Modül | İçerik ve Kazanımlar |
-| :--- | :--- |
-| **Shell00** | Temel Shell komutları, dosya izinleri, SSH anahtarları. |
-| **Shell01** | Gelişmiş Shell scriptleri, çevre değişkenleri ve otomasyon. |
-| **C00** | C diline giriş, `write` fonksiyonu, temel sözdizimi. |
-| **C01** | Pointer kavramı, bellek adresleri, temel aritmetik ve referanslar. |
-| **C02** | Diziler (arrays), string manipülasyonu ve karakter işlemleri. |
-| **C03** | Standart string kütüphanesi fonksiyonlarının (`strcmp`, `strcat` vb.) yeniden yazımı. |
-| **C04** | String parsing, tip dönüşümleri (`atoi` vb.) ve bellek analizi. |
-| **C05** | Matematiksel algoritmalar, özyinelemeli (recursive) fonksiyonlar ve iterasyon. |
-| **C06** | Komut satırı argümanları (`argc`, `argv`) ve program parametre yönetimi. |
-| **C07** | Dinamik bellek yönetimi (`malloc`, `free`, `realloc`) ve bellek sızıntısı kontrolü. |
-| **C08** | Header dosyaları (`.h`), makrolar ve yapılar (`struct`). |
+```text
+42-Piscine/
+├── c00/ # C00 – C diline giriş
+├── c01/ # C01 – Pointer’lar ve hafıza
+├── c02/ # C02 – Diziler ve stringler
+├── c03/ # C03 – String fonksiyonları vs.
+├── c04/ # C04 – Gelişmiş string / karakter
+├── c05/ # C05 – Matematiksel işlemler / döngüler
+├── c06/ # C06 – Komut satırı argümanları
+├── c07/ # C07 – Dinamik hafıza
+├── c08/ # C08 – Struct’lar / fonksiyon pointer’lar
+├── shell00/ # Shell00 – Shell temelleri
+└── shell01/ # Shell01 – Shell scripting
+```
 
-## 🛠️ Kullanım ve Derleme
+## Kullanım ve Derleme
 
 Bu projeler **Norminette** kurallarına (42 Okulu'nun katı kod yazım standartları) uygun olarak geliştirilmiştir. Kodları derlemek için genellikle `cc` derleyicisi ve standart bayraklar kullanılır:
 
